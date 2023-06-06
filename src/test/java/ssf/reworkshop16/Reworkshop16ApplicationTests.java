@@ -1,4 +1,4 @@
-package sf.reworkshop16;
+package ssf.reworkshop16;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
