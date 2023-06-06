@@ -73,6 +73,7 @@ public class Mastermind implements Serializable{
         return Json.createObjectBuilder()
                 .add("name", this.getName())
                 .add("pieces", this.getPieces().toJSON())
+                .add("id", this.getId())
                 .build();
     }
 
