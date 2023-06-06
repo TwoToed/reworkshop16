@@ -25,7 +25,7 @@ ARG REDISPORT
 ARG REDISUSER
 ARG REDISPASSWORD
 
-COPY --from=build /home/app/target/workshop16-0.0.1-SNAPSHOT.jar /usr/local/lib/reworkshop16.jar
+COPY --from=build /home/app/target/reworkshop16-0.0.1-SNAPSHOT.jar /usr/local/lib/reworkshop16.jar
 
 EXPOSE 8080
 ENTRYPOINT ["java", "-jar", "/usr/local/lib/reworkshop16.jar"]
